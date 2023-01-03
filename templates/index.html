@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        home
+    </title>
+<body>
+    <div class="container">
+    <h1>K-청년가게</h1>
+    <h2>image upload</h2>
+    {% if filename %}
+        <div>
+            <table>
+                <tr>
+                    <td><img alt="" src="{{filename}}" width="224" height="224" /></td>
+                    <td><img alt="" src="{{heatmap}}" /></td>
+                    <td><img alt="" src="{{gb}}" /></td>
+                    <td><img alt="" src="{{cam_gb}}" /></td>
+                <tr>
+            </table>
+        </div>
+
+
+        <div>
+
+            <p>{{label}} {{probability}}</p>
+
+        </div>
+    {% endif %}
+    <form method="post" action="/upload" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="submit">
+    </form>
+    </div>
+</body>
+</head>

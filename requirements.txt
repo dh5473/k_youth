@@ -1,0 +1,7 @@
+Flask==2.0.1
+Flask-SQLAlchemy==2.5.1
+torch
+opencv-python
+numpy
+torchvision
+pillow
