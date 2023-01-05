@@ -15,7 +15,7 @@ import shutil
 def model_define():
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-    kyouth_model = models.resnet50(weights=False).to(device)
+    kyouth_model = models.resnet50(pretrained=False).to(device)
 
     # For Initializing & prediction
     kyouth_model.fc = nn.Sequential(
@@ -28,7 +28,7 @@ def model_define():
         param.requires_grad = True
 
     # For GuidedBackPropReLU
-    gb_kyouth_model = models.resnet50(weights=False).to(device)
+    gb_kyouth_model = models.resnet50(pretrained=False).to(device)
     gb_kyouth_model.fc = nn.Sequential(
         nn.Linear(2048, 2),
     ).to(device)
@@ -156,7 +156,7 @@ def gradCAM(img_path):
     ''' 파일 저장 '''
 
     # 파일 경로 설정
-    output_saved_loc = 'C:\kyouth\k_youthstore\static\outputs' + '/'
+    output_saved_loc = 'C:\projects\myproject\static\outputs' + '/'
 
     # 파일 저장
     cv2.imwrite(os.path.join(output_saved_loc + '/', "Heat_Map.jpg"), grad_result)
