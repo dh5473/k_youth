@@ -110,6 +110,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
+  font-weight: bolder;
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -7495,6 +7496,11 @@ textarea.form-control-lg {
   padding-bottom: 3rem !important;
 }
 
+.py-6 {
+  padding-top: 8rem !important;
+  padding-bottom: 8rem !important;
+}
+
 .pt-0 {
   padding-top: 0 !important;
 }
@@ -7616,7 +7622,11 @@ textarea.form-control-lg {
 }
 
 .fs-6 {
-  font-size: 1rem !important;
+  font-size: 1.85rem !important;
+}
+
+.fs-7 {
+  font-size: 3.25rem !important;
 }
 
 .fst-italic {
@@ -7636,7 +7646,7 @@ textarea.form-control-lg {
 }
 
 .fw-normal {
-  font-weight: 400 !important;
+  font-weight: 600 !important;
 }
 
 .fw-bold {
@@ -7644,7 +7654,7 @@ textarea.form-control-lg {
 }
 
 .fw-bolder {
-  font-weight: bolder !important;
+  font-weight: 1000 !important;
 }
 
 .lh-1 {
