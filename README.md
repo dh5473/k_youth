@@ -57,7 +57,7 @@ XAI는 **eXplainable Artificial Intelligence**의 줄임말로, 설명가능한 
 ### Server
 
 <p align="justify">
-AWS ec2 + PuTTY + FileZilla
+AWS ec2 RDS + PuTTY + FileZilla
 </p>
 
 
