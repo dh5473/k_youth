@@ -4,7 +4,7 @@
 ## 프로젝트 소개
 
 <p align="justify">
-XAI는 **eXplainable Artificial Intelligence**의 줄임말로, 설명가능한 AI를 뜻한다. 현재 딥러닝은 기술이 과학보다 앞서 활용되고 있는 상태이다. 예를 들어, 열역학 법칙이 정립되기도 전에도 이미 증기기관차는 달리고 있었던 것처럼 말이다. 
+XAI는 eXplainable Artificial Intelligence의 줄임말로, 설명가능한 AI를 뜻한다. 현재 딥러닝은 기술이 과학보다 앞서 활용되고 있는 상태이다. 예를 들어, 열역학 법칙이 정립되기도 전에도 이미 증기기관차는 달리고 있었던 것처럼 말이다. 
 
 사람이 처음부터 끝까지 원리를 이해하며 만드는 기존 프로그래밍과 다르게, 딥러닝은 수많은 층에서 일어나는 가중치와 편향들의 조정이 정확히 어떤 영향을 일으키는지 알 수 없다. 이러한 이유로 AI 모델은 **블랙박스**라고도 불린다. XAI 기술은 모델이 어떠한 결론을 내린 이유와 과정을 시각화해서, AI 내부의 작동 원리를 쉽게 파악할 수 있게 해준다.
 
@@ -60,12 +60,6 @@ XAI는 **eXplainable Artificial Intelligence**의 줄임말로, 설명가능한 
 AWS ec2 RDS + PuTTY + FileZilla
 </p>
 
-
-<br>
-
-## 라이센스
-
-MIT &copy;
 
 <!-- Refernces -->
 
