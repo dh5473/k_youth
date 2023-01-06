@@ -14,7 +14,7 @@ XAI는 eXplainable Artificial Intelligence의 줄임말로, 설명가능한 AI�
 
 <br>
 
-**모델 및 프로젝트 내용 정리** : [Notion]
+**모델 및 프로젝트 내용 정리**: [Notion]
 
 <br>
 
@@ -25,6 +25,9 @@ XAI는 eXplainable Artificial Intelligence의 줄임말로, 설명가능한 AI�
   <br>
 </p>
 
+<br>
+
+**Colab**: [Colab_Demo]
 
 <br>
 
@@ -64,3 +67,4 @@ AWS ec2 RDS + PuTTY + FileZilla
 <!-- Refernces -->
 
 [Notion]: https://deepdaiv.notion.site/XAI-b4cffad4091f400ea5b8bd3462bd79c8
+[Colab_Demo]: https://colab.research.google.com/drive/10pcBFJbPxJL-XWJ486N9avCSS1ZMWYi9?usp=sharing
