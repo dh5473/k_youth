@@ -12,9 +12,11 @@ XAI는 **eXplainable Artificial Intelligence**의 줄임말로, 설명가능한 
 </p>
 
 
+<br>
 
 **모델 및 프로젝트 내용 정리** : [Notion]
 
+<br>
 
 ## 프로젝트 데모
 <p align="center">
